@@ -6,8 +6,8 @@ ABOUT THE ASSIGNMENT:
 SPECIFICATIONS:
 
 1. Write a code that read a file in specific format.
-  a. First line will always be a size of a maps represent in integer only.
-  b. After that will be an instruction to move or rotate.
+  1.1. First line will always be a size of a maps represent in integer only.
+  1.2. After that will be an instruction to move or rotate.
     i. F: Forward command makes the Robot move one unit in the direction it is facing. Code has to make sure the move does not make the Robot fall off the table. For example, if Robot is placed in (0,0) coordinate facing N (NORTH), a move would result in moving the Robot north resulting in coordinates (0,1). Similarly, a move for a Robot facing E (EAST) with (0,0) coordinates will take the Robot to (1,0) position.
     ii. L: Left command makes the Robot turn to its left. If Robot is facing N (NORTH), a left turn will make it face W (WEST).
     iii. R: Right command makes the Robot turn to its right. If Robot is facing N (NORTH), a right turn will make it face E (EAST).
