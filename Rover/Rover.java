@@ -100,7 +100,7 @@ public class Rover {
 		Rover rover = new Rover(0);	//initial
 		int map_size;
 		
-        //** Is there an input file? **
+        //** An input file. **
 		if (args.length>0) {	
 			
             //Read map size and commands from file
